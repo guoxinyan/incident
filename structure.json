@@ -1,0 +1,59 @@
+{
+  "name": "Health Impairment Declared (Y/N)",
+  "children": [
+    {
+      "name": "More than 2 high risk condition",
+      "children": [
+        {
+          "name": "Decline"
+        },
+        {
+          "name": "Any past hospitalization record?",
+          "children": [
+            {
+              "name":"Decline"
+            },
+            {
+              "name": "Any past policy declined?",
+              "children": [
+              {
+                "name":"Decline"
+              },
+              {
+                "name":"Accept with Exclusion"
+              }
+            ]            
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Any previously declared conditions?", 
+      "children": [
+        {
+          "name": "Unhealthy BMI range",
+          "children": [
+              {
+                "name":"Age > 50 years old",
+                "children": [
+                  {
+                    "name":"Decline"
+                  },
+                  {
+                    "name":"Accept with Exclusion"
+                  }
+                ]
+              },
+              {
+                "name":"Decline"
+              }
+            ]
+        },
+        {
+          "name": "Accept"
+        }
+      ]
+    }
+  ]
+}
