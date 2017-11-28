@@ -1,26 +1,26 @@
 {
-  "name": "Health Impairment Declared (Y/N)",
+  "name": "Traffic Incident",
   "children": [
     {
-      "name": "More than 2 high risk condition",
+      "name": "Slippery Road",
       "children": [
         {
-          "name": "Decline"
+          "name": "Car Accident"
         },
         {
-          "name": "Any past hospitalization record?",
+          "name": "K",
           "children": [
             {
               "name":"Decline"
             },
             {
-              "name": "Any past policy declined?",
+              "name": "TEST",
               "children": [
               {
-                "name":"Decline"
+                "name":"TEST"
               },
               {
-                "name":"Accept with Exclusion"
+                "name":"TEST"
               }
             ]            
             }
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "name": "Any previously declared conditions?", 
+      "name": "TEST, 
       "children": [
         {
           "name": "Unhealthy BMI range",
